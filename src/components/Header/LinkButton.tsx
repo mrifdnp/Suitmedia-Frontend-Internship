@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 import tw from "twin.macro";
 
-interface LinkButtonProps {
+export interface LinkButtonProps {
   type: string;
   state: string;
   onUpdate: (type: any) => void;
