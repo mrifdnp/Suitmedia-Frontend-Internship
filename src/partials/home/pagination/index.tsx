@@ -18,7 +18,7 @@ export default function HomePagination() {
         <ItemPagination
           key={e.label}
           label={e.label}
-          url={e.url}
+       url={e.url ?? null}
           isActive={e.active}
         />
       ))}
